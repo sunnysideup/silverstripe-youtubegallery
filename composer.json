@@ -14,8 +14,10 @@
 		}
 	],
 	"require":{
-		"php": ">=5.3.2",
 		"silverstripe/framework": "~2.4",
-		"silverstripe/flash": "~2.4"
+		"sunnysideup/flash": "~2.4"
+	},
+	"extra": {
+		"installer-name": "youtubegallery"
 	}
 }
