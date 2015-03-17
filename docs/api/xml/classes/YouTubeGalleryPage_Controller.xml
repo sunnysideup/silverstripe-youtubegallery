@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="YouTubeGalleryPage_Controller" namespace="" name="YouTubeGalleryPage_Controller" abstract="false" final="false" start="89" end="97">
+  <file path="/var/www/_modules/youtubegallery/trunk/docs/en/phpdox/../../../code" file="YouTubeGalleryPage.php" realpath="/var/www/_modules/youtubegallery/trunk/code/YouTubeGalleryPage.php" size="3034" time="2015-03-14T10:23:24+13:00" unixtime="1426281804" sha1="83d7f34394651dd04e6809022e7ef0e195232845" relative="code/YouTubeGalleryPage.php"/>
+  <extends full="Page_Controller" namespace="" name="Page_Controller"/>
+  <method name="init" start="91" end="93" abstract="false" final="false" static="false" visibility="public"/>
+</class>

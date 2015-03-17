@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="YouTubeGalleryHolderPage" namespace="" name="YouTubeGalleryHolderPage" abstract="false" final="false" start="8" end="19">
+  <file path="/var/www/_modules/youtubegallery/trunk/docs/en/phpdox/../../../code" file="YouTubeGalleryHolderPage.php" realpath="/var/www/_modules/youtubegallery/trunk/code/YouTubeGalleryHolderPage.php" size="797" time="2015-03-14T10:23:24+13:00" unixtime="1426281804" sha1="7d1a3092dd11c7dc0dc9ace9c9bc45bfa7fe16f9" relative="code/YouTubeGalleryHolderPage.php"/>
+  <docblock>
+    <description compact="author nicolaas[at]sunnysideup.co.nz description: holds YouTubeGallery Pages"/>
+  </docblock>
+  <extends full="Page" namespace="" name="Page"/>
+  <member name="icon" type="string" default="&quot;youtubegallery/images/treeicons/YouTubeGalleryHolderPage&quot;" visibility="public" line="10"/>
+  <member name="default_child" type="string" default="'YouTubeGalleryPage'" visibility="public" line="12"/>
+  <method name="getCMSFields" start="14" end="17" abstract="false" final="false" static="false" visibility="public"/>
+</class>
