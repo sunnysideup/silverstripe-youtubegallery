@@ -5,32 +5,31 @@
  *@description: holds YouTubeGallery Pages
  *
  */
-class YouTubeGalleryHolderPage extends Page {
+class YouTubeGalleryHolderPage extends Page
+{
+    public static $icon = "youtubegallery/images/treeicons/YouTubeGalleryHolderPage";
 
-	static $icon = "youtubegallery/images/treeicons/YouTubeGalleryHolderPage";
+    public static $default_child = 'YouTubeGalleryPage';
 
-	static $default_child = 'YouTubeGalleryPage';
-
-	function getCMSFields() {
-		$fields = parent::getCMSFields();
-		return $fields;
-	}
-
+    public function getCMSFields()
+    {
+        $fields = parent::getCMSFields();
+        return $fields;
+    }
 }
 
-class YouTubeGalleryHolderPage_Controller extends Page_Controller {
+class YouTubeGalleryHolderPage_Controller extends Page_Controller
+{
+    public function init()
+    {
+        parent::init();
+        Requirements::themedCSS("YouTubeGalleryHolderPage");
+        Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.js");
+        Requirements::javascript("youtubegallery/javascript/YouTubeGalleryHolderPage.js");
+    }
 
-	function init() {
-		parent::init();
-		Requirements::themedCSS("YouTubeGalleryHolderPage");
-		Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.js");
-		Requirements::javascript("youtubegallery/javascript/YouTubeGalleryHolderPage.js");
-	}
-
-	function YouTubeGalleryPageChildren() {
-		return DataObject::get("YouTubeGalleryPage", "ParentID = ".$this->ID);
-	}
-
-
+    public function YouTubeGalleryPageChildren()
+    {
+        return DataObject::get("YouTubeGalleryPage", "ParentID = ".$this->ID);
+    }
 }
-

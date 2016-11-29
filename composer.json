@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "create a youtube gallery in your silverstripe website",
     "keywords": [
-        "youtubegallery",
-        "silverstripe"
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "youtubegallery"
     ],
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
@@ -16,7 +18,8 @@
     ],
     "require": {
         "silverstripe/framework": "~2.4",
-        "sunnysideup/flash": "~2.4"
+        "sunnysideup/flash": "~2.4",
+        "silverstripe/cms": "~2.4"
     },
     "extra": {
         "installer-name": "youtubegallery"
