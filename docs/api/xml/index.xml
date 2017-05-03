@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/youtubegallery/trunk">
-  <namespace name="">
-    <class name="YouTubeGalleryPage" src="code/YouTubeGalleryPage.php" description="author nicolaas [at] sunnysideup.co.nz description: This page holds one youtube video Link: http://code.google.com/apis/youtube/player_parameters.html" xml="classes/YouTubeGalleryPage.xml"/>
-    <class name="YouTubeGalleryPage_Controller" src="code/YouTubeGalleryPage.php" xml="classes/YouTubeGalleryPage_Controller.xml"/>
-    <class name="YouTubeGalleryHolderPage" src="code/YouTubeGalleryHolderPage.php" description="author nicolaas[at]sunnysideup.co.nz description: holds YouTubeGallery Pages" xml="classes/YouTubeGalleryHolderPage.xml"/>
-    <class name="YouTubeGalleryHolderPage_Controller" src="code/YouTubeGalleryHolderPage.php" xml="classes/YouTubeGalleryHolderPage_Controller.xml"/>
-  </namespace>
-</index>
